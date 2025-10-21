@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body{
+	background-color:#ffc0cb;
+}
+img{
+width:50%;
+}
+h1{
+	color:#800000;
+}
+.title{
+	width:100%;
+}
+.cakes1{
+	
+	width:50%;
+	float:left;
+	
+}
+
+.cakes2{
+	
+	width:50%;
+	float:right;
+	
+}
+
+.img-box{
+	display: flex;
+	flex-wrap: wrap;
+	max-width:100%;
+}
+
+.left-sec,right-sec{
+	max-width:45%;
+	margen:10px auto;
+
+}
